@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9b6bf9876cdb47beb3d996e80b1afd2e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9b6bf9876cdb47beb3d996e80b1afd2e" ></div>
+        
+</body>
+<script>    
+    
+            var map_9b6bf9876cdb47beb3d996e80b1afd2e = L.map(
+                "map_9b6bf9876cdb47beb3d996e80b1afd2e",
+                {
+                    center: [33.362634, 126.529167],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_026a46ac0b194e66a6c8f573ea6294c3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9b6bf9876cdb47beb3d996e80b1afd2e);
+        
+    
+            var marker_cluster_22cc8a8fa5964953993eae57f0e2630b = L.markerClusterGroup(
+                {}
+            );
+            map_9b6bf9876cdb47beb3d996e80b1afd2e.addLayer(marker_cluster_22cc8a8fa5964953993eae57f0e2630b);
+        
+    
+            var marker_3ae51c2f14054345a5536a27046a1312 = L.marker(
+                [33.515159000000004, 126.511633],
+                {}
+            ).addTo(marker_cluster_22cc8a8fa5964953993eae57f0e2630b);
+        
+    
+            var icon_2c72e273309f4a168b9abc113e28f6db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3ae51c2f14054345a5536a27046a1312.setIcon(icon_2c72e273309f4a168b9abc113e28f6db);
+        
+    
+        var popup_ea64dca9b4614ec2bd49cea1e3ede109 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ac30cbd16334d2fb248eaca5298b1fd = $(`<div id="html_1ac30cbd16334d2fb248eaca5298b1fd" style="width: 100.0%; height: 100.0%;">제주시 용담이동 483</div>`)[0];
+            popup_ea64dca9b4614ec2bd49cea1e3ede109.setContent(html_1ac30cbd16334d2fb248eaca5298b1fd);
+        
+
+        marker_3ae51c2f14054345a5536a27046a1312.bindPopup(popup_ea64dca9b4614ec2bd49cea1e3ede109)
+        ;
+
+        
+    
+    
+            var marker_57ef9212afe645fba4b63937722e904e = L.marker(
+                [33.503485, 126.495621],
+                {}
+            ).addTo(marker_cluster_22cc8a8fa5964953993eae57f0e2630b);
+        
+    
+            var icon_16cb70164c1e4f5abafccce4214b9ba1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_57ef9212afe645fba4b63937722e904e.setIcon(icon_16cb70164c1e4f5abafccce4214b9ba1);
+        
+    
+        var popup_18722ad395844ab18d749bef7eee81a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d78cdb45eba410b8cd052862251b62a = $(`<div id="html_5d78cdb45eba410b8cd052862251b62a" style="width: 100.0%; height: 100.0%;">제주시 용담이동 1611</div>`)[0];
+            popup_18722ad395844ab18d749bef7eee81a3.setContent(html_5d78cdb45eba410b8cd052862251b62a);
+        
+
+        marker_57ef9212afe645fba4b63937722e904e.bindPopup(popup_18722ad395844ab18d749bef7eee81a3)
+        ;
+
+        
+    
+    
+            var marker_5b8b53d39ac04d3bba3cb5b439b30d83 = L.marker(
+                [33.518504, 126.51991699999999],
+                {}
+            ).addTo(marker_cluster_22cc8a8fa5964953993eae57f0e2630b);
+        
+    
+            var icon_577ef03a45194906af832f2da0c0fe4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5b8b53d39ac04d3bba3cb5b439b30d83.setIcon(icon_577ef03a45194906af832f2da0c0fe4c);
+        
+    
+        var popup_bb47ff692f4c4d3c9c9d524fae24e5b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4fdd29abff04dc0b41f4b54a399787f = $(`<div id="html_f4fdd29abff04dc0b41f4b54a399787f" style="width: 100.0%; height: 100.0%;">제주시 삼도이동 1257</div>`)[0];
+            popup_bb47ff692f4c4d3c9c9d524fae24e5b5.setContent(html_f4fdd29abff04dc0b41f4b54a399787f);
+        
+
+        marker_5b8b53d39ac04d3bba3cb5b439b30d83.bindPopup(popup_bb47ff692f4c4d3c9c9d524fae24e5b5)
+        ;
+
+        
+    
+    
+            var marker_2022cdd4bbbb49f8b9c23533ffd33cbb = L.marker(
+                [33.516528, 126.525296],
+                {}
+            ).addTo(marker_cluster_22cc8a8fa5964953993eae57f0e2630b);
+        
+    
+            var icon_78f03208c396448aa6d956d2adc230ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2022cdd4bbbb49f8b9c23533ffd33cbb.setIcon(icon_78f03208c396448aa6d956d2adc230ca);
+        
+    
+        var popup_92e3f39d902a4aedb62e7b3e0bdb2d92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23a88ba85fed42df9bb1958bd0fd0435 = $(`<div id="html_23a88ba85fed42df9bb1958bd0fd0435" style="width: 100.0%; height: 100.0%;">제주시 삼도이동 1192-8</div>`)[0];
+            popup_92e3f39d902a4aedb62e7b3e0bdb2d92.setContent(html_23a88ba85fed42df9bb1958bd0fd0435);
+        
+
+        marker_2022cdd4bbbb49f8b9c23533ffd33cbb.bindPopup(popup_92e3f39d902a4aedb62e7b3e0bdb2d92)
+        ;
+
+        
+    
+    
+            var marker_a49a61ebd818479bacd0d15a10b24412 = L.marker(
+                [33.495849, 126.53143999999999],
+                {}
+            ).addTo(marker_cluster_22cc8a8fa5964953993eae57f0e2630b);
+        
+    
+            var icon_f6f0688a972048c79ebff0e5f2e77ae1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a49a61ebd818479bacd0d15a10b24412.setIcon(icon_f6f0688a972048c79ebff0e5f2e77ae1);
+        
+    
+        var popup_3a0be8805fc945faa0b9accade46a443 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12fb36d6001b420bb7b369f2deed7e6f = $(`<div id="html_12fb36d6001b420bb7b369f2deed7e6f" style="width: 100.0%; height: 100.0%;">제주시 이도이동 1012-10</div>`)[0];
+            popup_3a0be8805fc945faa0b9accade46a443.setContent(html_12fb36d6001b420bb7b369f2deed7e6f);
+        
+
+        marker_a49a61ebd818479bacd0d15a10b24412.bindPopup(popup_3a0be8805fc945faa0b9accade46a443)
+        ;
+
+        
+    
+    
+            var marker_b00b86dbfd8544d5a6e0250c99d195cb = L.marker(
+                [33.48941, 126.49116399999998],
+                {}
+            ).addTo(marker_cluster_22cc8a8fa5964953993eae57f0e2630b);
+        
+    
+            var icon_babf07cb923f4efc8d13a259b919c02f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b00b86dbfd8544d5a6e0250c99d195cb.setIcon(icon_babf07cb923f4efc8d13a259b919c02f);
+        
+    
+        var popup_3edf591e2b444ff4a3d490dcab58a66d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f2fd276d26c4d0c8f9c7688ddc9b515 = $(`<div id="html_1f2fd276d26c4d0c8f9c7688ddc9b515" style="width: 100.0%; height: 100.0%;">제주시 연동 272-31</div>`)[0];
+            popup_3edf591e2b444ff4a3d490dcab58a66d.setContent(html_1f2fd276d26c4d0c8f9c7688ddc9b515);
+        
+
+        marker_b00b86dbfd8544d5a6e0250c99d195cb.bindPopup(popup_3edf591e2b444ff4a3d490dcab58a66d)
+        ;
+
+        
+    
+    
+            var marker_f46dfa7144844b2d91a127c4cb2491dd = L.marker(
+                [33.505006, 126.54200700000001],
+                {}
+            ).addTo(marker_cluster_22cc8a8fa5964953993eae57f0e2630b);
+        
+    
+            var icon_e37d22f0e56c42eca765d14f795509ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f46dfa7144844b2d91a127c4cb2491dd.setIcon(icon_e37d22f0e56c42eca765d14f795509ba);
+        
+    
+        var popup_75c6c936e1f7415faa4d53178ddfebb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d026fd6d61b14c7d89d4cf29d108eccd = $(`<div id="html_d026fd6d61b14c7d89d4cf29d108eccd" style="width: 100.0%; height: 100.0%;">제주시 일도이동 409-11</div>`)[0];
+            popup_75c6c936e1f7415faa4d53178ddfebb1.setContent(html_d026fd6d61b14c7d89d4cf29d108eccd);
+        
+
+        marker_f46dfa7144844b2d91a127c4cb2491dd.bindPopup(popup_75c6c936e1f7415faa4d53178ddfebb1)
+        ;
+
+        
+    
+    
+            var marker_a2a4488cdc70404f80fa20eaa1dcf13a = L.marker(
+                [33.51377, 126.52675500000001],
+                {}
+            ).addTo(marker_cluster_22cc8a8fa5964953993eae57f0e2630b);
+        
+    
+            var icon_18d5326a761447c7be6a24463f33514c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a2a4488cdc70404f80fa20eaa1dcf13a.setIcon(icon_18d5326a761447c7be6a24463f33514c);
+        
+    
+        var popup_d3896d212ba445b4824644ae63168d6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b3bc9cb2a5e4b5e9f46db4d32ba68d5 = $(`<div id="html_2b3bc9cb2a5e4b5e9f46db4d32ba68d5" style="width: 100.0%; height: 100.0%;">제주시 일도일동 1476-33</div>`)[0];
+            popup_d3896d212ba445b4824644ae63168d6f.setContent(html_2b3bc9cb2a5e4b5e9f46db4d32ba68d5);
+        
+
+        marker_a2a4488cdc70404f80fa20eaa1dcf13a.bindPopup(popup_d3896d212ba445b4824644ae63168d6f)
+        ;
+
+        
+    
+    
+            var marker_6a599b81c335404a9564edfd77a39ae6 = L.marker(
+                [33.494928, 126.535393],
+                {}
+            ).addTo(marker_cluster_22cc8a8fa5964953993eae57f0e2630b);
+        
+    
+            var icon_7b0d4f47758948d8afa22d8abac5965b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6a599b81c335404a9564edfd77a39ae6.setIcon(icon_7b0d4f47758948d8afa22d8abac5965b);
+        
+    
+        var popup_3b970e46321b49c1ae159044ec8df1c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7907250901e147d3902727a9cda5e1c3 = $(`<div id="html_7907250901e147d3902727a9cda5e1c3" style="width: 100.0%; height: 100.0%;">제주시 이도이동 1066</div>`)[0];
+            popup_3b970e46321b49c1ae159044ec8df1c6.setContent(html_7907250901e147d3902727a9cda5e1c3);
+        
+
+        marker_6a599b81c335404a9564edfd77a39ae6.bindPopup(popup_3b970e46321b49c1ae159044ec8df1c6)
+        ;
+
+        
+    
+    
+            var marker_0dc57e2f5fa64ac4b599dd9d49120a38 = L.marker(
+                [33.511140999999995, 126.526257],
+                {}
+            ).addTo(marker_cluster_22cc8a8fa5964953993eae57f0e2630b);
+        
+    
+            var icon_c1cb9cf7c1ad44bbbcd387831237a790 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0dc57e2f5fa64ac4b599dd9d49120a38.setIcon(icon_c1cb9cf7c1ad44bbbcd387831237a790);
+        
+    
+        var popup_dffbe5e439254b038ae6cc7971c218f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed4dbaca66b54f8ea74c0056d138733b = $(`<div id="html_ed4dbaca66b54f8ea74c0056d138733b" style="width: 100.0%; height: 100.0%;">제주시 이도일동 1330-5</div>`)[0];
+            popup_dffbe5e439254b038ae6cc7971c218f3.setContent(html_ed4dbaca66b54f8ea74c0056d138733b);
+        
+
+        marker_0dc57e2f5fa64ac4b599dd9d49120a38.bindPopup(popup_dffbe5e439254b038ae6cc7971c218f3)
+        ;
+
+        
+    
+</script>
