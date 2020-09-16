@@ -6,3 +6,15 @@ https://www.jejusi.go.kr/field/traffic/parkingmap.do
 
 3. 주차공간_만족도_및_문제해결.csv (2019)
 KOSIS
+
+4. 제주도_주차장현황.csv
+KOSIS
+
+5. 제주주차장, 서귀포주차장.csv 
+제주도_주차장현황.csv 활용
+
+6. 주작.csv
+제주도_주차장현황.csv, 자동차등록현황.csv 활용
+
+7. 제주도_불법주정차 신고현황.csv
+?
