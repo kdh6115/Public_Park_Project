@@ -21,3 +21,12 @@ KOSIS
 
 8. 2019_읍면동_와이파이_사용자수.csv
 제주데이터허브
+
+9. total.csv
+2019년 자동차 등록현황 + 읍면동 와이파이 사용자수
+
+10. 2019년12월-인구통계.xlsx
+https://www.jeju.go.kr/open/stats/list/population.htm?year=2019 (제주도청)
+
+11. 통계표10 산업소분류 및 제주시 읍면동별 사업체수, 종사자수.xlsx
+http://www.jejusi.go.kr/information/statistics/business.do?mode=detail&notice_id=1dcce59d8af249a9918c035aacbabe9d&currentPageNo=1 (제주도청)
