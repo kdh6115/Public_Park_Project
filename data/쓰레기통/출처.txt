@@ -1,0 +1,32 @@
+1. 20년 차량 등록 대수
+http://www.jejusi.go.kr/information/status/cars.do (제주시청)
+
+2. 공영주차장 좌표
+https://www.jejusi.go.kr/field/traffic/parkingmap.do
+
+3. 주차공간_만족도_및_문제해결.csv (2019)
+KOSIS
+
+4. 제주도_주차장현황.csv
+KOSIS
+
+5. 제주주차장, 서귀포주차장.csv 
+제주도_주차장현황.csv 활용
+
+6. 주작.csv
+제주도_주차장현황.csv, 자동차등록현황.csv 활용
+
+7. 제주도_불법주정차 신고현황.csv
+?
+
+8. 2019_읍면동_와이파이_사용자수.csv
+제주데이터허브
+
+9. total.csv
+2019년 자동차 등록현황 + 읍면동 와이파이 사용자수
+
+10. 2019년12월-인구통계.xlsx
+https://www.jeju.go.kr/open/stats/list/population.htm?year=2019 (제주도청)
+
+11. 통계표10 산업소분류 및 제주시 읍면동별 사업체수, 종사자수.xlsx
+http://www.jejusi.go.kr/information/statistics/business.do?mode=detail&notice_id=1dcce59d8af249a9918c035aacbabe9d&currentPageNo=1 (제주도청)
